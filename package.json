@@ -1,8 +1,17 @@
 {
-  "dependencies": {
-    "express": "^4.17.1"
-  },
+  "name": "umbler-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "check-node-version": "^2.1.0",
+    "cluster": "^0.7.7",
+    "express": "^4.15.2",
+    "os": "^0.1.1"
   }
 }
